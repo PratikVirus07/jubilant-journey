@@ -1,0 +1,43 @@
+:root{
+	font-size: 32px;
+}
+.parent {
+background: tomato;
+height: 70vh;
+width: 50vw;
+font-size: 1rem;
+}
+.child {
+background: lime;
+height: 50vh;
+width: 60vw;
+font-size: 0.8rem;
+}
+.grandchild {
+background: khaki;
+height: 2vmax;
+width: 60vmax;
+font-size: 0.6rem;
+}
+
+@media screen and (max-width:500px){
+	.parent {
+background-color: black;
+color: white;
+height: 70vh;
+width: 50vw;
+font-size: 1rem;
+}
+.child {
+background: blue;
+height: 50vh;
+width: 60vw;
+font-size: 0.8rem;
+}
+.grandchild {
+background: yellow;
+height: 2vmax;
+width: 60vmax;
+font-size: 0.6rem;
+}
+}

@@ -1,0 +1,14 @@
+.myStyle{
+	color: blue;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: yellow;
+
+}
+#myId{
+	color: green;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: yellow;
+
+}
